@@ -1,8 +1,6 @@
-# Twitter
+# Twitter Clone API
 
-Given an `app.js` file and a database file `twitterClone.db` consisting of five tables `user`, `follower`, `tweet`, `reply`, and `like`.
-
-Write APIs to perform operations on the tables `user`, `follower`, `tweet`, `reply`, and `like` containing the following columns,
+This project implements a Twitter-like backend system using Node.js and SQLite. The database consists of five tables: `user`, `follower`, `tweet`, `reply`, and `like`. Below is the API documentation for the application.
 
 **User Table**
 
@@ -528,7 +526,3 @@ Created a Tweet
 <br/>
 
 Use `npm install` to install the packages.
-
-**Export the express instance using the default export syntax.**
-
-**Use Common JS module syntax.**
